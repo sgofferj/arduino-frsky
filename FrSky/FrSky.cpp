@@ -70,11 +70,11 @@ char FrSky::parse_char(char c,char* msg) {
 }
 
 // ----- Public --------------------------------------------------------------
-char FrSky::update(char c,char* msg) {
+char FrSky::update(char c) {
   char result = 0;
-  result=parse_char(c,frsky_msg);
+  result=parse_char(c,_frsky_msg);
   if(result) {
-    handle_message(frsky_msg);
+    handle_message(_frsky_msg);
   }
   return result;
 }

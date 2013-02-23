@@ -30,7 +30,7 @@
 class FrSky {
   public:
     FrSky();
-    char update(char c,char* msg);
+    char update(char c);
     unsigned char getRX_a1();
     unsigned char getRX_a2();
     unsigned char getLink_up();
@@ -38,7 +38,7 @@ class FrSky {
   private:
     void handle_message(char* msg);
     char parse_char(char c,char* msg);
-    char frsky_msg[FRSKY_MSG_LENGTH+2];
+    char _frsky_msg[FRSKY_MSG_LENGTH+2];
     unsigned char _rx_a1;
     unsigned char _rx_a2;
     unsigned char _link_up;
