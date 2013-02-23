@@ -1,3 +1,5 @@
 FrSky			KEYWORD1
-handle_message		KEYWORD2
-parse_char		KEYWORD2
+getRX_a1		KEYWORD2
+getRX_a2		KEYWORD2
+getLink_up		KEYWORD2
+getLink_dn		KEYWORD2
