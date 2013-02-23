@@ -37,14 +37,14 @@ unsigned char getRX_a1();
   Parameters: None
   Returns:    Raw value of receiver A1 port (0-255)
   Note:       The internal voltage sensor has a 4:1 divider, leading to a
-              result of 0-13,2V in 256 steps. To get the voltage, multiply with
+              result of 0-13.2V in 256 steps. To get the voltage, multiply with
               0.0517647058824
 
 unsigned char getRX_a2();
   Function:   Get raw value of receiver A2 port
   Parameters: None
   Returns:    Raw value of receiver A2 port (0-255)
-  Note:       Without divider, the result represents 3,3V in 256 steps. To get
+  Note:       Without divider, the result represents 3.3V in 256 steps. To get
               the voltage, multiply with 0.0129411764706
 
 unsigned char getLink_up();
