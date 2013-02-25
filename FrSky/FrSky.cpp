@@ -80,22 +80,18 @@ char FrSky::update(char c) {
 }
 
 unsigned char FrSky::getRX_a1() {
-  unsigned char result = _rx_a1;
-  return result;
+  return _rx_a1;
 }
 
 unsigned char FrSky::getRX_a2() {
-  unsigned char result = _rx_a2;
-  return result;
+  return _rx_a2;
 }
 
 unsigned char FrSky::getLink_up() {
-  unsigned char result = _link_up;
-  return result;
+  return _link_up;
 }
 
 unsigned char FrSky::getLink_dn() {
-  unsigned char result = _link_dn;
-  return result;
+  return _link_dn;
 }
 

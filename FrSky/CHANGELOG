@@ -21,6 +21,10 @@ Library for decoding FrSky telemetry packages
      Boston, MA 02110-1301 USA
 ------------------------------------------------------------------------------
 
+---- 25feb2013
+- Removed unnecessary local variables in accessor methods, thanks to Bill
+  Bonney's code review
+
 ---- 22feb2013
 - Basic functionality is there
 
