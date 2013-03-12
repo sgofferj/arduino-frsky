@@ -21,6 +21,10 @@ Library for decoding FrSky telemetry packages
      Boston, MA 02110-1301 USA
 ------------------------------------------------------------------------------
 
+---- 12mar2013
+- Updated README about the divider and internal voltage sensor. Thanks to
+  R. Lefebvre for pointing out the lack of clarity.
+
 ---- 25feb2013
 - Removed unnecessary local variables in accessor methods, thanks to Bill
   Bonney's code review
